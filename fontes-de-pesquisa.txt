@@ -1,0 +1,14 @@
+Seguem os links para as fontes de pesquisa externa que utilizei:
+
+Youtube:
+
+https://www.youtube.com/watch?v=hBJJJWm2bUQ
+https://www.youtube.com/watch?v=E5qWEY1GVQ0
+https://www.youtube.com/watch?v=hTnXAQYO6As
+
+Sites e blogs:
+
+https://wallacemaxters.com.br/blog/48/como-gerar-cores-aleatorias-no-javascript
+https://blog.betrybe.com/javascript/javascript-alert/
+https://horadecodar.com.br/2020/07/21/como-salvar-um-objeto-na-localstorage/
+https://www.w3schools.com/jsref/dom_obj_event.asp

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Pixel's Art</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1 id="title">Paleta de Cores</h1>
+
+  <h4>Selecione a cor desejada:</h4>
+
+  <div id="color-palette">
+    <div class="color" id="color-1" style="background-color: #000;"></div>
+    <div class="color" id="color-2" style="background-color: generateColor();"></div>
+    <div class="color" id="color-3" style="background-color: generateColor();"></div>
+    <div class="color" id="color-4" style="background-color: generateColor();"></div>
+  </div>
+  <!--o evento onclick ocorre quando o usuário clica no elemento HTML.-->
+  <button id="button-random-color" onclick="generateColor()">Cores aleatórias</button>
+  <button id="clear-board">Limpar</button>
+  
+  <div class="inputs">
+    <h4>Escolha um tamanho para o quadro de pixels: </h4>
+    <input id="board-size" type="number" class="input" name="height" min="1" max="50" value="" required>
+    <button id="generate-board" type="submit" class="submit-button" value="submit" onClick="alertOn()">VQV
+    <button>Limpar grade</button>
+  </div>
+  <br>
+  
+  <table id="pixel-board">
+    <tr>
+      <!--o evento onchange ocorre quando o valor do elemento HTML é alterado.-->
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+    </tr>
+    <tr>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+    </tr>
+    <tr>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+    </tr>
+    <tr>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+    </tr>
+    <tr>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+      <td class="pixel" onchange="changeColorPencil()"></td>
+    </tr> 
+  </table>
+  <script src="js/script.js"></script>
+</body>
+</html>
